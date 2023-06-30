@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    font-family: 'Playfair Display', serif;
+    background-color: aquamarine;
+    font-size: 4rem;
+    font-weight: 900;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: center;
+    color: rgb(18, 106, 128);
+    border-bottom: 3px solid black;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 10x;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: burlywood;
+} 
+
+.block {
+    border: 3px solid black;
+    height: 150px;
+    width: 150px;
+    color: blue;
+    font-size: 8rem;
+    font-weight: 900;
+    text-align: center;
+    background-color: rgb(226, 190, 214);
+}
+
+.gameBoard {
+    display: flex;
+    background-color: burlywood;
+}
+
+.current {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 87px;
+}
+
+.player {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+}
+
+dialog {
+    position: fixed;
+    left: 428px;
+    top: 150px;
+    padding: 0 15px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 20px 30px;
+    margin-left: 0;
+    border: none;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 30px;
+    border: none;
+    width: 280px;
+    margin-left: 148px;
+}
+
+#confirmBtn:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#restart:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#restart {
+    margin-left: 0;
+}
+
+.announce {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#secDialog {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 455px;
+}
